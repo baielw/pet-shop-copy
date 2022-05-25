@@ -1,14 +1,15 @@
 .Toolbar {
-  background-color: rgb(185, 23, 23);
   color: black;
 }
 .Toolbar .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(43, 43, 92);
   max-width: 987px;
   margin: 0 auto;
   padding: 0 1rem;
+  border-bottom-left-radius: 25%;
 }
 @media (max-width: 620px) {
   .Toolbar ul {

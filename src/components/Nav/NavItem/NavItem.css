@@ -1,15 +1,17 @@
-/* .NavItem a {
+.NavItem a {
   display: block;
   padding: 1rem 1.5rem;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 1.2rem;
   border-bottom: 3px solid transparent;
+
+  justify-content: center;
 }
 .NavItem a.active {
   border-color: rgb(3, 2, 2);
 }
 .NavItem a:hover {
-  background-color: rgba(172, 0, 0, 0.1);
+  background-color: rgba(163, 21, 21, 0.582);
 }
 
 @media (max-width: 620px) {
@@ -17,4 +19,4 @@
     border-bottom: none;
     border-right: 5px solid transparent;
   }
-} */
+}
