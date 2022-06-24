@@ -3,6 +3,7 @@ import image from "../assets/home.jpeg";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
+import { increment, remove } from "../redux/cartSlice";
 
 function Cart() {
   const items = useSelector(store => store.cart.items);
@@ -19,9 +20,9 @@ function Cart() {
         <div>
           <Link to="">{product.title}</Link> {items[product.productId]} ${product.price * items[product.productId]}
 
-          <button onClick={() => dispatch({ type: "cart/decrement", payload: product.productId })}>-</button>
-          <button onClick={() => dispatch({ type: "cart/increment", payload: product.productId })}>+</button>
-          <button onClick={() => dispatch({ type: "cart/delete", payload: product.productId })}>Delete</button>
+          <button onClick={() => dispatch(decrement(product.productId))}>-</button>
+          <button onClick={() => dispatch(increment(product.productId))}>+</button>
+          <button onClick={() => dispatch(remove(product.productId))}>Delete</button>
         </div>
       );
     });
