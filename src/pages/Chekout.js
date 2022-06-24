@@ -4,9 +4,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
 
-function Cart() {
+function Checkout() {
   const items = useSelector(store => store.cart.items);
-  const dispatch = useDispatch();
   const products = getProducts();
 
   let total = 0;
@@ -18,10 +17,6 @@ function Cart() {
       return (
         <div>
           <Link to="">{product.title}</Link> {items[product.productId]} ${product.price * items[product.productId]}
-
-          <button onClick={() => dispatch({ type: "cart/decrement", payload: product.productId })}>-</button>
-          <button onClick={() => dispatch({ type: "cart/increment", payload: product.productId })}>+</button>
-          <button onClick={() => dispatch({ type: "cart/delete", payload: product.productId })}>Delete</button>
         </div>
       );
     });
@@ -34,19 +29,39 @@ function Cart() {
   return (
     <>
       <Header
-        title="Your Shopping Cart"
+        title="Checkout"
         image={image}>
-        Please review items in your cart.
+        Please enter your information.
       </Header>
       <div>
         {output}
         <hr />
         Total: ${total}
 
-        <Link to="/checkout">Checkout</Link>
+        <form>
+          <label>
+            First name:
+            <input type="text" name="firstName" required />
+          </label>
+          <label>
+            Last name:
+            <input type="text" name="lastName" required />
+          </label>
+          <label>
+            Address:
+            <input type="text" name="address" required />
+          </label>
+          <label>
+            Phone:
+            <input type="text" name="phone" required />
+          </label>
+
+          <button>Complete the order</button>
+        </form>
+
       </div>
     </>
   );
 }
 
-export default Cart;
+export default Checkout; 
