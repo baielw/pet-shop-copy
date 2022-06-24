@@ -2,9 +2,12 @@ import Header from "../components/Header/Header";
 import image from "../assets/home.jpeg";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { checkout } from "../redux/cartSlice";
 
 function Checkout() {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const items = useSelector(store => store.cart.items);
   const products = getProducts();
 
@@ -25,6 +28,14 @@ function Checkout() {
     output = "No items in the cart.";
   }
 
+  function onCheckout(event) {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    const order = { items: items, ...Object.fromEntries(formData.entries()) };
+    dispatch(checkout(order));
+    navigate('/');
+  }
 
   return (
     <>
@@ -38,7 +49,7 @@ function Checkout() {
         <hr />
         Total: ${total}
 
-        <form>
+        <form onSubmit={onCheckout}>
           <label>
             First name:
             <input type="text" name="firstName" required />
@@ -64,4 +75,4 @@ function Checkout() {
   );
 }
 
-export default Checkout; 
+export default Checkout;

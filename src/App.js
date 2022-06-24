@@ -10,6 +10,8 @@ import Category from "./pages/Category";
 import Cart from "./pages/Cart";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
+import Checkout from "./pages/Checkout";
+import Auth from "./pages/Auth";
 
 function App() {
   const dispatch = useDispatch();
@@ -29,11 +31,12 @@ function App() {
           <Route path="/categories/:categoryId" element={<Category />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </div>
   );
 }
-
 export default App;
