@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import image from "../assets/home.jpeg";
+import image from "../assets/header3.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link, useNavigate } from "react-router-dom";
