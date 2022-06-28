@@ -3,6 +3,7 @@ import cookcat2 from "../assets/cookcat2.jpeg";
 import cookcat3 from "../assets/cookcat3.png";
 
 import dogcook1 from "../assets/dogcook1.png";
+import dogcook2 from "../assets/dogcook2.png";
 
 const products = [
   {
@@ -18,7 +19,7 @@ const products = [
      image: cookcat2,
      productId: "Pro Plan Kitten",
      categoryId: "coffee-beans",
-     title: "Pro Plan Kitten Delicate:",
+     title: "Pro Plan Kitten",
      description: `Ingredients:
      turkey (17%**), rice**, dry turkey protein**, pea protein concentrate**, animal fat, soy protein**, corn gluten**, corn starch, dried chicory root (2%*), minerals, flavoring feed additive, yeast**, amino acids, vitamins, fish oil, preservatives, antioxidants`,
      price: 12,
@@ -27,27 +28,28 @@ const products = [
     image: cookcat3,
     productId: " Gold Tuna and Brown Rice",
     categoryId: "coffee-beans",
-    title: "Gold Tuna and Brown Rice ",
+    title: "Gold Tuna",
     description: `Ingredients:
     Turkey (18%), rice, corn gluten, pea protein concentrate, dry turkey protein, animal fat, egg powder, corn starch, corn, minerals, fish oil, flavoring feed additive, yeast, preservatives, vitamins, antioxidants.`,
     price: 14,
   },
-   {
-     image: dogcook1,
-     productId: "SmartHeart Beef",
-     categoryId: "coffee-beans",
-     title: "SmartHeart Beef",
-     description: `TSmart Heart Beef and Rice Flavor is an easily digestible food. Each granule is specially designed and well crushed for easy absorption and good quality stool.`,
-     price: 13,
-   },
-  // {
-  //   image: productImage,
-  //   productId: "medium-roast",
-  //   categoryId: "coffee-beans",
-  //   title: "Medium roast",
-  //   description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-  //   price: 11,
-  // },
+  {
+    image: dogcook1,
+    productId: "SmartHeart Beef",
+    categoryId: "coffee-beans",
+    title: "SmartHeart Beef",
+    description: `TSmart Heart Beef and Rice Flavor is an easily digestible food. Each granule is specially designed and well crushed for easy absorption and good quality stool.`,
+    price: 13,
+  },
+  {
+    image: dogcook2,
+    productId: "Power Maxx",
+    categoryId: "coffee-beans",
+    title: "Power Maxx",
+    description: `Excellent price-to-quality ratio and, accordingly, the most optimal choice for your pet!`,
+    price: 18,
+  },
+
   // {
   //   image: productImage,
   //   productId: "coffee-grinder",
