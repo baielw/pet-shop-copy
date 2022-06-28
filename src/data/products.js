@@ -4,6 +4,7 @@ import cookcat3 from "../assets/cookcat3.png";
 
 import dogcook1 from "../assets/dogcook1.png";
 import dogcook2 from "../assets/dogcook2.png";
+import dogcook3 from "../assets/dogcook3.jpg";
 
 const products = [
   {
@@ -49,15 +50,16 @@ const products = [
     description: `Excellent price-to-quality ratio and, accordingly, the most optimal choice for your pet!`,
     price: 18,
   },
+  
+  {
+    image: dogcook3,
+    productId: "Pedigree",
+    categoryId: "coffee-beans",
+    title: "Pedigree",
+    description: `Appetizing dry food with beef will definitely give pleasure to your dog, and give his body all the necessary elements`,
+    price: 18,
+  },
 
-  // {
-  //   image: productImage,
-  //   productId: "coffee-grinder",
-  //   categoryId: "accessories",
-  //   title: "Coffee grinder",
-  //   description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
-  //   price: 100,
-  // },
   // {
   //   image: productImage,
   //   productId: "coffee-cup",

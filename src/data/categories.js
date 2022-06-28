@@ -1,9 +1,6 @@
 import dogsImage from "../assets/dogs.webp";
 import catsImage from "../assets/cats.jpg";
 import birdsImage from "../assets/birds.jpg";
-import rodentsImage from "../assets/rodents.jpg";
-import fishImage from "../assets/fihs.jpg";
-import accessoriesImage from "../assets/accessories1.jpg";
 
 
 const categories = [
@@ -25,26 +22,9 @@ const categories = [
     image: birdsImage,
   },
 
-
-  {
-    categoryId: "accessories",
-    title: "Rodents",
-    image: rodentsImage,
-  },
   
-  {
-    categoryId: "accessories",
-    title: "Accessories",
-    image: accessoriesImage,
-  },
-
-
   
-  {
-    categoryId: "accessories",
-    title: "Fish",
-    image: fishImage,
-  },
+
 ];
 
 export function getCategories() {
