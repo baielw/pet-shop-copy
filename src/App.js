@@ -18,7 +18,7 @@ function App() {
   
   useEffect(() => {
     dispatch({ type: 'cart/restore' });
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="App">

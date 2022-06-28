@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { getProducts } from "../../data/products";
-import classes from "./CartDisplay.module.css";
+import classes from "./CartDisplay.css";
 import CartItem from "../CartItem/CartItem";
 
 function CartDisplay({ actions }) {
