@@ -1,5 +1,6 @@
 import cookcat1 from "../assets/cookcat1.jpg";
 import cookcat2 from "../assets/cookcat2.jpeg";
+import cookcat3 from "../assets/cookcat3.png";
 
 const products = [
   {
@@ -18,14 +19,14 @@ const products = [
      description: `turkey (17%**), rice**, dry turkey protein**, pea protein concentrate**, animal fat, soy protein**, corn gluten**, corn starch, dried chicory root (2%*), minerals, flavoring feed additive, yeast**, amino acids, vitamins, fish oil, preservatives, antioxidants`,
      price: 12,
    },
-  // {
-  //   image: productImage,
-  //   productId: "house-blend",
-  //   categoryId: "coffee-beans",
-  //   title: "House blend",
-  //   description: `Two methods are primarily used to process coffee berries. The first, "wet" or "washed" process, has historically usually been carried out in Central America and areas of Africa. The flesh of the cherries is separated from the seeds and then the seeds are fermented – soaked in water for about two days. This softens the mucilage, which is a sticky pulp residue that is still attached to the seeds. Then this mucilage is washed off with water.`,
-  //   price: 14,
-  // },
+  {
+    image: cookcat3,
+    productId: "Gold Tuna and Brown Rice",
+    categoryId: "coffee-beans",
+    title: "House blend",
+    description: `Two methods are primarily used to process coffee berries. The first, "wet" or "washed" process, has historically usually been carried out in Central America and areas of Africa. The flesh of the cherries is separated from the seeds and then the seeds are fermented – soaked in water for about two days. This softens the mucilage, which is a sticky pulp residue that is still attached to the seeds. Then this mucilage is washed off with water.`,
+    price: 14,
+  },
   // {
   //   image: productImage,
   //   productId: "light-roast",
