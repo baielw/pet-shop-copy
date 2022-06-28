@@ -1,10 +1,12 @@
 import cookcat1 from "../assets/cookcat1.jpg";
 import cookcat2 from "../assets/cookcat2.jpeg";
-import cookcat3 from "../assets/cookcat3.png";
 
 import dogcook1 from "../assets/dogcook1.png";
 import dogcook2 from "../assets/dogcook2.png";
 import dogcook3 from "../assets/dogcook3.jpg";
+
+import cookbirds1 from "../assets/cookbirds1.webp";
+import cookbirds2 from "../assets/cookbirds2.webp";
 
 const products = [
   {
@@ -26,7 +28,7 @@ const products = [
      price: 12,
    },
   {
-    image: cookcat3,
+    image: cookcat1,
     productId: " Gold Tuna and Brown Rice",
     categoryId: "coffee-beans",
     title: "Gold Tuna",
@@ -60,6 +62,23 @@ const products = [
     price: 18,
   },
 
+  {
+    image: cookbirds1,
+    productId: "RIO Daily",
+    categoryId: "coffee-beans",
+    title: "RIO Daily",
+    description: `Balanced food for daily feeding of medium parrots is perfect for feeding lovebirds and corellas.`,
+    price: 12,
+  },
+
+  {
+    image: cookbirds2,
+    productId: "RIO Daily",
+    categoryId: "coffee-beans",
+    title: "RIO Daily",
+    description: `Balanced food for daily feeding of medium parrots is perfect for feeding lovebirds and corellas.`,
+    price: 12,
+  },
   // {
   //   image: productImage,
   //   productId: "coffee-cup",
