@@ -1,9 +1,8 @@
 .NavItem a {
-  display: block;
+  display: flex;
   padding: 1rem 1.5rem;
   color: rgb(0, 0, 0);
-  font-size: 1.2rem;
-  border-bottom: 3px solid transparent;
+  font-size: 2rem;
 
   justify-content: center;
 }
@@ -11,7 +10,7 @@
   border-color: rgb(3, 2, 2);
 }
 .NavItem a:hover {
-  background-color: rgba(163, 21, 21, 0.582);
+  background-color: rgb(243, 241, 115);
 }
 
 @media (max-width: 620px) {

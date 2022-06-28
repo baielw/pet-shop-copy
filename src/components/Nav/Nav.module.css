@@ -30,10 +30,11 @@ li{
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  background-color: aqua;
+  background-color: rgb(243, 241, 115);
   color: rgb(0, 0, 0);
   border-bottom-left-radius: 25%;
   cursor: pointer;
+  font-size: 1rem;
 
   
 
