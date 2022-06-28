@@ -2,6 +2,8 @@ import cookcat1 from "../assets/cookcat1.jpg";
 import cookcat2 from "../assets/cookcat2.jpeg";
 import cookcat3 from "../assets/cookcat3.png";
 
+import dogcook1 from "../assets/dogcook1.png";
+
 const products = [
   {
     image: cookcat1,
@@ -23,21 +25,21 @@ const products = [
    },
   {
     image: cookcat3,
-    productId: " Brown Rice",
+    productId: " Gold Tuna and Brown Rice",
     categoryId: "coffee-beans",
     title: "Gold Tuna and Brown Rice ",
     description: `Ingredients:
     Turkey (18%), rice, corn gluten, pea protein concentrate, dry turkey protein, animal fat, egg powder, corn starch, corn, minerals, fish oil, flavoring feed additive, yeast, preservatives, vitamins, antioxidants.`,
     price: 14,
   },
-  // {
-  //   image: productImage,
-  //   productId: "light-roast",
-  //   categoryId: "coffee-beans",
-  //   title: "Light roast",
-  //   description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
-  //   price: 13,
-  // },
+   {
+     image: dogcook1,
+     productId: "SmartHeart Beef",
+     categoryId: "coffee-beans",
+     title: "SmartHeart Beef",
+     description: `TSmart Heart Beef and Rice Flavor is an easily digestible food. Each granule is specially designed and well crushed for easy absorption and good quality stool.`,
+     price: 13,
+   },
   // {
   //   image: productImage,
   //   productId: "medium-roast",
