@@ -1,4 +1,4 @@
-import dogsImage from "../assets/dogs.webp";
+import dogsImage from "../assets/dogs.jpg";
 import catsImage from "../assets/cats.jpg";
 import birdsImage from "../assets/birds.jpg";
 

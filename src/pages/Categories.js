@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/product.jpeg";
+import headerImage from "../assets/header3.jpg";
 import { getCategories } from "../data/categories";
 import CategoryList from "../components/CategoryList/CategoryList";
 
