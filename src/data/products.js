@@ -7,24 +7,27 @@ const products = [
     image: cookcat1,
     productId: "Pro Plan Sterilised",
     categoryId: "coffee-beans",
-    title: "Ingredients:: ",
-    description: ` salmon (20%), dry poultry protein, rice, corn gluten, corn, wheat gluten, wheat fiber, fiber, egg powder, minerals, animal fat, amino acids, flavoring feed additive, yeast, preservatives, vitamins, fish oil, antioxidants..`,
+    title: "Pro Plan Sterilised",
+    description: `Ingredients:
+    salmon (20%), dry poultry protein, rice, corn gluten, corn, wheat gluten, wheat fiber, fiber, egg powder, minerals, animal fat, amino acids, flavoring feed additive, yeast, preservatives, vitamins, fish oil, antioxidants..`,
     price: 10,
    },
    {
      image: cookcat2,
-     productId: "Pro Plan Kitten Delicate",
+     productId: "Pro Plan Kitten",
      categoryId: "coffee-beans",
-     title: "Ingredients:",
-     description: `turkey (17%**), rice**, dry turkey protein**, pea protein concentrate**, animal fat, soy protein**, corn gluten**, corn starch, dried chicory root (2%*), minerals, flavoring feed additive, yeast**, amino acids, vitamins, fish oil, preservatives, antioxidants`,
+     title: "Pro Plan Kitten Delicate:",
+     description: `Ingredients:
+     turkey (17%**), rice**, dry turkey protein**, pea protein concentrate**, animal fat, soy protein**, corn gluten**, corn starch, dried chicory root (2%*), minerals, flavoring feed additive, yeast**, amino acids, vitamins, fish oil, preservatives, antioxidants`,
      price: 12,
    },
   {
     image: cookcat3,
-    productId: "Gold Tuna and Brown Rice",
+    productId: " Brown Rice",
     categoryId: "coffee-beans",
-    title: "House blend",
-    description: `Two methods are primarily used to process coffee berries. The first, "wet" or "washed" process, has historically usually been carried out in Central America and areas of Africa. The flesh of the cherries is separated from the seeds and then the seeds are fermented – soaked in water for about two days. This softens the mucilage, which is a sticky pulp residue that is still attached to the seeds. Then this mucilage is washed off with water.`,
+    title: "Gold Tuna and Brown Rice ",
+    description: `Ingredients:
+    Turkey (18%), rice, corn gluten, pea protein concentrate, dry turkey protein, animal fat, egg powder, corn starch, corn, minerals, fish oil, flavoring feed additive, yeast, preservatives, vitamins, antioxidants.`,
     price: 14,
   },
   // {
