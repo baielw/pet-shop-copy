@@ -1,24 +1,28 @@
 .cart-icons {
-    width: 40px;
-    height: 40px;
+    width: 45px; 
+    height: 45px;
     justify-content: center;
+    margin-right: 1rem;
+    padding: 0%;
   }
   .number {
     position: absolute;
-    font-size: 1.3rem;
+    font-size: 0.5rem;
     text-align: center;
     color: rgb(245, 245, 245);
-    
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 20px;
   }
   
   .CartButton {
-    background-color: black;
-    border-radius: 5px;
+    background-color: rgb(131, 16, 16);
+    border-radius: 3px;
     color: #fff;
     cursor: pointer;
     font-family: Muli, sans-serif;
-    margin: 5px;
-    padding: 5px 7px;
+    margin: 1rem;
+    padding: 5px;
   }
   .CartButton:hover {
     background-color: red;
