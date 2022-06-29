@@ -2,10 +2,10 @@ import cookcat1 from "../assets/cookcat1.jpg";
 import cookcat2 from "../assets/cookcat2.jpeg";
 
 import dogcook1 from "../assets/dogcook1.png";
-import dogcook2 from "../assets/dogcook2.png";
+import dogcook2 from "../assets/dogcook2.jpg";
 import dogcook3 from "../assets/dogcook3.jpg";
 
-import cookbirds1 from "../assets/cookbirds1.webp";
+import cookbirds1 from "../assets/cookbirds1.jpg";
 import cookbirds2 from "../assets/cookbirds2.webp";
 
 const products = [
@@ -79,14 +79,22 @@ const products = [
     description: `Balanced food for daily feeding of medium parrots is perfect for feeding lovebirds and corellas.`,
     price: 12,
   },
-  // {
-  //   image: productImage,
-  //   productId: "coffee-cup",
-  //   categoryId: "accessories",
-  //   title: "Coffee cup",
-  //   description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-  //   price: 50,
-  // },
+  {
+    image: cookbirds1,
+    productId: "RIO Daily",
+    categoryId: "coffee-beans",
+    title: "RIO Daily",
+    description: `Balanced food for daily feeding of medium parrots is perfect for feeding lovebirds and corellas.`,
+    price: 12,
+  },
+  
+  {
+    image: cookbirds1,
+    categoryId: "accessories",
+    title: "Coffee cup",
+    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    price: 50,
+  },
   // {
   //   image: productImage,
   //   productId: "mango-tea",
