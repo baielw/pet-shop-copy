@@ -1,14 +1,14 @@
 .cart-icons {
-    width: 20px;
-    height: 20px;
-    position: relative;
+    width: 40px;
+    height: 40px;
     justify-content: center;
   }
   .number {
     position: absolute;
     font-size: 1.3rem;
     text-align: center;
-    color: red;
+    color: rgb(245, 245, 245);
+    
   }
   
   .CartButton {
