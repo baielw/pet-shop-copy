@@ -30,29 +30,29 @@ function Checkout() {
   }
   return (
     <>
-      <Header className="Header" title="Checkout" image={image} >
-        Please enter your information.
-      </Header>
-
+      <Header title="Checkout" image={image}></Header>
       <CartDisplay />
-      <form className="Checkout" onSubmit={onCheckout}>
+      <form className="CARTS" onSubmit={onCheckout}>
         <label>
           First name:
-          <input type="text" name="FirstName" required />
+          <input type="text" name="firstName" required />
         </label>
+        <br />
         <label>
           Last name:
-          <input type="text" name="LastName" required />
+          <input type="text" name="lastName" required />
         </label>
+        <br />
         <label>
           Address:
-          <input type="text" name="Address" required />
+          <input type="text" name="address" required />
         </label>
+        <br />
         <label>
           Phone:
-          <input type="text" name="Phone" required />
+          <input type="text" name="phone" required />
         </label>
-
+        <br />
         <button className="btn-checkout">Complete the order</button>
       </form>
     </>

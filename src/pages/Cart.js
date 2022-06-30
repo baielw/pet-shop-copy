@@ -6,15 +6,14 @@ import { Link } from "react-router-dom";
 function Cart() {
   return (
     <>
-      <Header
-        title="Your Shopping Cart"
-        image={image}>
-        Please review items in your cart.
-      </Header>
-
-      <CartDisplay actions />
-
-      <Link className="LinkCheckout" to="/checkout">Checkout</Link>
+      <Header title="Your Shopping Cart" image={image}></Header>
+      <div className="all-cart">
+        {/* {output} */}
+        <CartDisplay actions />
+        <Link className="btn-checkout" to="/checkout">
+          Checkout
+        </Link>
+      </div>
     </>
   );
 }

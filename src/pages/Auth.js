@@ -9,6 +9,7 @@ export default function Auth() {
 
   function onAuthStart(event) {
     event.preventDefault();
+
     const formData = new FormData(event.target);
     dispatch(
       start({
@@ -32,11 +33,14 @@ export default function Auth() {
   }
 
   return (
-    <div className="Auth">
-      <form onSubmit={onAuthStart}>
-        {errorOutput}
-        <div className="Auth">
+    <form onSubmit={onAuthStart}>
+      {errorOutput}
+      <h1 className="Auth-title">Welcome</h1>
+      <div className="Auth">
+        <label>
           <input type="email" placeholder="E-mail" name="email" required />
+        </label>
+        <label>
           <input
             type="password"
             placeholder="Password"
@@ -44,10 +48,13 @@ export default function Auth() {
             required
             minLength="6"
           />
-        </div>
-        <button>Sign in</button>
-        <button>Sign up</button>
-      </form>
-    </div>
+        </label>
+      </div>
+
+      <div className="Button-center">
+        <button className="Button">Sign in</button>
+        <button className="Button">Sign up</button>
+      </div>
+    </form>
   );
 }
