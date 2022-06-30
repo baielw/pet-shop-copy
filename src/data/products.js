@@ -10,6 +10,8 @@ import cookbirds2 from "../assets/cookbirds2.webp";
 
 import buldog from "../assets/buldog.jpg";
 
+import catt from "../assets/catt.webp";
+
 
 const products = [
   {
@@ -97,15 +99,15 @@ const products = [
     title: "BUl-Dog",
     description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
     price: 50,
-  },
-  // {
-  //   image: productImage,
-  //   productId: "mango-tea",
-  //   categoryId: "tea",
-  //   title: "Mango tea",
-  //   description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-  //   price: 10,
   // },
+  //  {
+  //    image: catt,
+  //    productId: "mango-tea",
+  //    categoryId: "tea",
+  //    title: "Baby Cat",
+  //    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+  //    price: 55,
+  //  },
 ];
 
 export function getProducts(categoryId) {
