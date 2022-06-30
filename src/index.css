@@ -15,3 +15,137 @@ code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+
+
+
+.Auth{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.Auth input{
+  width: 15rem;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 2px solid  #33b821;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+}
+.Auth input::placeholder{
+  font-size: 1rem;
+  color: rgb(71, 73, 75);
+}
+.Auth button {
+  border: 1px solid #33b821;
+  border-radius: 10px;
+  background-color: #33b821;
+  color: white;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.Auth button:not(:disabled):hover {
+  background-color: #33b821;
+}
+.Auth button:focus {
+  outline: none;
+}
+.Auth button:disabled {
+  opacity: .5;
+}
+  
+  
+
+.Checkout {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.CARTS label input {
+  /* max-width: 300px; */
+  width: 250px;
+  height: 30px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #000;
+  border: none;
+  font-family: inherit;
+  border: 1px solid #747474fd;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.Checkout label {
+  display: block;
+  padding: 10px 0 5px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  margin: 20px;
+}
+.btn-checkout {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+
+
+  text-align: center !important;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  transition: .5s;
+  margin: 1rem auto;
+  border-radius: 50px;
+  padding: 8px;
+  cursor: pointer;
+  background: transparent;
+  color: #33b821 !important;
+  border: 1px solid #33b821;
+}
+
+.btn-checkout:hover {
+  color: white !important;
+  background-color: #33b821;
+}
+
+.LinkCheckout {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #33b821;
+
+  text-align: center !important;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  transition: .5s;
+  margin: 1rem auto;
+  border-radius: 15px;
+  padding: 8px;
+  cursor: pointer;
+  background: transparent;
+  color: #33b821 !important;
+  border: 1px solid #33b821;
+}

@@ -1,17 +1,18 @@
 .CartItem {
   display: flex;
-  width: 60%;
+  width: 50%;
   font-size: 1.5rem;
 
 }
 
 .CartItem img {
-    width: 100%;
+    width: auto;
     height:400px;
+    margin-left: -1rem;
   }
 
     
-@media (min-width: 200px) {
+@media (min-width: 280px) {
   .CartItem img {
  min-width: 280px;
   }
@@ -22,14 +23,10 @@
 }
 
 .quantity {
-display: inline-block;
-width: 30%;  
-height: 30px;
+width: 20px;  
+height: 210px;
 line-height: 1.7cm;
-margin-top: 1rem;
-padding-right: 20px;
-margin-left: 2rem;
-padding-left: 27px;
+padding-left: 10px;
 text-align: center;
 font-size: 2rem;
 color: rgb(7, 3, 3);
@@ -40,10 +37,12 @@ color: rgb(7, 3, 3);
  text-align: justify;
  margin-top: 3.7rem;
  padding-top: 2px;
+ margin-left: -2rem;
 }
 .subtotal {
   width: 100px;
   height: 30px;
-   margin-top: 4rem;
+   margin-top: 15rem;
+   margin-left: -4rem;
    padding: 2px ;
 }

@@ -14,7 +14,7 @@ function Cart() {
 
       <CartDisplay actions />
 
-      <Link to="/checkout">Checkout</Link>
+      <Link className="LinkCheckout" to="/checkout">Checkout</Link>
     </>
   );
 }

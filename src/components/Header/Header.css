@@ -17,11 +17,12 @@
 .Header section {
   position: absolute;
   bottom: -4.5rem;
-  right: 4rem;
+  right: 2rem;
+  left: 1rem;
   max-width: 500px;
 
-  background-color: rgb(243, 241, 115);
-  padding:  15px ;
+  background-color: #33b821;
+  padding:  10px ;
   border-radius: 0.8rem;
   font-size: 1.3rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, .3);

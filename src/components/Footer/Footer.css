@@ -1,8 +1,14 @@
 .Footer {
-background-color: rgb(23, 187, 8);
   padding: 1rem;
     text-align: center;
     color: white;
+
+    width: 100%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #33b821;
   }
 /* footer{
   width: 100%;
