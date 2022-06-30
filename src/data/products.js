@@ -8,6 +8,9 @@ import dogcook3 from "../assets/dogcook3.jpg";
 import cookbirds1 from "../assets/cookbirds1.jpg";
 import cookbirds2 from "../assets/cookbirds2.webp";
 
+import buldog from "../assets/buldog.jpg";
+
+
 const products = [
   {
     image: cookcat1,
@@ -89,9 +92,9 @@ const products = [
   },
   
   {
-    image: cookbirds1,
+    image:buldog ,
     categoryId: "accessories",
-    title: "Coffee cup",
+    title: "BUl-Dog",
     description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
     price: 50,
   },
